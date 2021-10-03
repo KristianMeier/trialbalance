@@ -9,10 +9,13 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "selskab" && password === "selskab") {
         window.open("https://selskab.herokuapp.com");
-    } 
-    else if (username === "enkeltmand" && password === "enkeltmand") {
-        window.open("https://enkeltmand.herokuapp.com");
     }
+    else if (username === "test" && password === "test") {
+        window.open("test.html");
+    }
+    //else if (username === "enkeltmand" && password === "enkeltmand") {
+    //    window.open("https://enkeltmand.herokuapp.com");
+    //}
         else {
         loginErrorMsg.style.opacity = 1;
     }
